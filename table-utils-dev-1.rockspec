@@ -1,0 +1,25 @@
+package = "table-utils"
+version = "dev-1"
+rockspec_format = "3.0"
+source = {
+  url = "*** please add URL for source tarball, zip or repository here ***"
+}
+description = {
+  homepage = "*** please enter a project homepage ***",
+  license = "MIT"
+}
+build = {
+  type = "builtin",
+  modules = {
+    init = "init.lua",
+    table_utils = "table_utils.lua",
+    ["test.format"] = "test/format.lua",
+    ["test.init"] = "test/init.lua"
+  }
+}
+test_dependencies = {
+  "busted >= 2.0.0"
+}
+test = {
+  type = "busted"
+}
