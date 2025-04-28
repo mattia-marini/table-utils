@@ -1,12 +1,12 @@
 package = "table-utils"
-version = "dev-1"
+version = "dev-1.0.0"
 rockspec_format = "3.0"
 source = {
-  url = "*** please add URL for source tarball, zip or repository here ***"
+  url = "git://github.com/mattia-marini/table-utils"
 }
 description = {
-  homepage = "*** please enter a project homepage ***",
-  license = "MIT"
+  -- homepage = "*** please enter a project homepage ***",
+  -- license = "MIT"
 }
 build = {
   type = "builtin",
