@@ -11,11 +11,13 @@ description = {
 build = {
   type = "builtin",
   modules = {
-    init = "init.lua",
     table_utils = "table_utils.lua",
-    ["test.format"] = "test/format.lua",
-    ["test.init"] = "test/init.lua"
+    -- ["test.format"] = "test/format.lua",
+    -- ["test.init"] = "test/init.lua"
   }
+}
+dependencies = {
+  "lua >= 5.1",
 }
 test_dependencies = {
   "busted >= 2.0.0"

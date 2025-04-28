@@ -1,4 +1,5 @@
 local mymodule = require("table_utils")
+--- @diagnostic disable: undefined-global
 
 describe("mymodule.add", function()
   it("normal non empty tables", function()

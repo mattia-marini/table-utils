@@ -1,4 +1,3 @@
-local util = require("inspect")
 local M = {}
 
 --- Inserts the contents of the source table into the destination table at the specified index.
@@ -38,7 +37,9 @@ end
 
 
 --- Concatenates values from multiple tables into a single flat list.
----
+--- ```lua
+--- insert_table({ 1, 2}, { 3 }, {4,5}) --  {1, 2, 3, 4, 5}
+--- ```
 --- @param ... table Variadic number of tables containing array-like values.
 --- @return table result A single table with all values concatenated in order.
 function M.format(...)
