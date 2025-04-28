@@ -1,8 +1,9 @@
 package = "table-utils"
-version = "dev-1.0.0"
+version = "dev-1"
 rockspec_format = "3.0"
 source = {
-  url = "git://github.com/mattia-marini/table-utils"
+  url = "git://github.com/mattia-marini/table-utils",
+  tag = "vdev-1"
 }
 description = {
   -- homepage = "*** please enter a project homepage ***",
